@@ -14,3 +14,10 @@ build/
 
 # Test related files
 coverage/
+
+# Generated files
+*.g.dart
+*.freezed.dart
+
+# Environment
+.env

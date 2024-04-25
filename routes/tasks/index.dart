@@ -1,8 +1,7 @@
 import 'dart:io';
 
 import 'package:dart_frog/dart_frog.dart';
-
-import 'package:frog_authentication/user.dart';
+import 'package:frog_authentication/data/models/user.dart';
 
 Future<Response> onRequest(RequestContext context) {
   return switch (context.request.method) {

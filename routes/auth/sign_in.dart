@@ -2,7 +2,6 @@
 import 'dart:io';
 
 import 'package:dart_frog/dart_frog.dart';
-import 'package:frog_authentication/authenticator.dart';
 
 Future<Response> onRequest(RequestContext context) async {
   return switch (context.request.method) {

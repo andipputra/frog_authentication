@@ -9,9 +9,7 @@ part 'user.g.dart';
 class User with _$User {
   /// user constructor
   const factory User({
-    required String fullname,
-    required String email,
-    required String password,
+    required String fullname, required String email, required String password, int? id,
   }) = _User;
   
 
